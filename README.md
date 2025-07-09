@@ -1,6 +1,6 @@
 # 🧠 Technical Portfolio – Software Architecture & System Development
 
-📌 This portfolio showcases my hands-on experience as a **Senior Developer**, with a focus on **scalable**, **domain-driven** solutions integrated across multiple platforms, following best practices in software architecture and engineering.
+📌 *This portfolio highlights my real-world experience as a senior developer, focused on delivering **scalable**, **domain-oriented**, and **platform-integrated** solutions, built with solid architecture and engineering principles.*
 
 ## 🔗 Architecture Diagram (Draw.io)
 - https://drive.google.com/file/d/17xAo-AW_FbjyQy1nYo6SD0mhniHSU7ZW/view?usp=sharing
@@ -108,4 +108,3 @@ Multi-tenant environment with **isolated databases per client**, ensuring **secu
 
 ---
 
-📌 *This portfolio highlights my real-world experience as a senior developer, focused on delivering **scalable**, **domain-oriented**, and **platform-integrated** solutions, built with solid architecture and engineering principles.*
