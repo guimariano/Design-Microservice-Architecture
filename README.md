@@ -1,5 +1,14 @@
 # 🧠 Portfólio Técnico – Arquitetura e Desenvolvimento de Sistemas
 
+## URL da Arquitetura no Draw.io
+- https://drive.google.com/file/d/17xAo-AW_FbjyQy1nYo6SD0mhniHSU7ZW/view?usp=sharing
+
+## Imagens
+### Simplificada
+![arch3](https://github.com/user-attachments/assets/495e5bf0-c6c4-4e65-add2-5b08c5c29e9e)
+### Exandida
+![arch1](https://github.com/user-attachments/assets/14fa407d-894a-4972-a733-1f4d31b11bc2)
+
 ## 🎨 Front-end
 
 ### 🛠️ Omni-Admin
