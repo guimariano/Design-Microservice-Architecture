@@ -1,105 +1,111 @@
-# 🧠 Portfólio Técnico – Arquitetura e Desenvolvimento de Sistemas
+# 🧠 Technical Portfolio – Software Architecture & System Development
 
-## URL da Arquitetura no Draw.io
+📌 This portfolio showcases my hands-on experience as a **Senior Developer**, with a focus on **scalable**, **domain-driven** solutions integrated across multiple platforms, following best practices in software architecture and engineering.
+
+## 🔗 Architecture Diagram (Draw.io)
 - https://drive.google.com/file/d/17xAo-AW_FbjyQy1nYo6SD0mhniHSU7ZW/view?usp=sharing
 
-## Imagens
-### Simplificada
+## 🖼️ Diagrams
+
+### Simplified
 ![arch3](https://github.com/user-attachments/assets/495e5bf0-c6c4-4e65-add2-5b08c5c29e9e)
-### Expandida
+
+### Expanded
 ![arch1](https://github.com/user-attachments/assets/14fa407d-894a-4972-a733-1f4d31b11bc2)
+
+---
 
 ## 🎨 Front-end
 
-### 🛠️ Omni-Admin
-Interface administrativa principal do ecossistema Omnichannel. Responsável pela **gestão de lojas, usuários, vendas e operações**, oferecendo controle total sobre a operação.
+### 🛠️ Omni-Admin (ReactJS + CSS)
+Main administrative interface of the Omnichannel ecosystem. Responsible for **managing stores, users, sales, and operations**, offering full control over the system.
 
-### 📄 Omni-Controller
-Aplicação voltada para **gestão e configuração de contratos de clientes** da Infracommerce. Permite customizações por contrato com flexibilidade e governança.
+### 📄 Omni-Controller (ReactJS + CSS)
+Application designed for **managing and configuring client contracts** with Infracommerce. Enables contract-specific customizations with flexibility and governance.
 
-### 🛒 POX (Point of Experience)
-Aplicativo de vendas para atendimento presencial. Possui recursos como **prateleira infinita**, permitindo ao vendedor acesso a um catálogo estendido de produtos.
+### 🛒 POX (Point of Experience) (ReactJS + CSS)
+Sales application for in-person service. Features include the **infinite shelf**, allowing sales associates to access an extended product catalog beyond physical inventory.
 
 ---
 
 ## ⚙️ Back-end
 
-### 🌐 Omni-API
-Serviço unificado que centraliza a **comunicação e as regras de negócio** entre as diversas aplicações. Atua como o backbone da operação Omnichannel.
+### 🌐 Omni-API (Clean Architecture with NestJS)
+Unified service that centralizes **communication and business rules** across applications. Serves as the backbone of the Omnichannel operation.
 
-### 📬 Omni-Queue
-Gerenciador de **filas e tarefas assíncronas**, responsável por executar processos em background de forma eficiente, sem sobrecarregar os serviços principais.
+### 📬 Omni-Queue (Clean Architecture with NestJS)
+Asynchronous **queue and task manager**, responsible for processing background jobs efficiently without overloading core services.
 
-### 📦 Omni-Fetch
-Aplicação responsável pela **integração com catálogos externos**, sincronizando ofertas e dados de produtos de diferentes parceiros.
+### 📦 Omni-Fetch (Clean Architecture with NestJS + RabbitMQ)
+Service responsible for **integrating external product catalogs**, synchronizing product data and offers from various suppliers.
 
-### 🧾 Occtotax
-Sistema de **automação fiscal** que realiza a geração de **notas fiscais eletrônicas (NF-e)** e **cupons fiscais (SAT/NFC-e)**, garantindo conformidade tributária.
+### 🧾 Occtotax (MVC with PHP)
+**Tax automation system** that handles the generation of **electronic invoices (NF-e)** and **fiscal coupons (SAT/NFC-e)**, ensuring full tax compliance.
 
 ---
 
-## 🌍 Aplicações Externas
+## 🌍 External Applications
 
 ### 💳 Adyen
-Gateway de pagamento integrado com **maquininhas POS**, oferecendo adquirência conectada diretamente ao ecossistema Omnichannel.
+Payment gateway integrated with **POS terminals**, providing connected acquiring services fully integrated into the Omnichannel ecosystem.
 
 ---
 
-## 🧱 Contextos de Conteúdo
+## 🧱 Content Contexts
 
-### 🗂️ Catálogo (on-demand)
-Sistema de **catálogo de produtos sob demanda**, fornecido via **CXaaS**, com acesso em tempo real pelas aplicações.
+### 🗂️ Catalog (on-demand)
+**On-demand product catalog** system, powered by **CXaaS**, with real-time access for all front-end applications.
 
 ### 🏷️ Price & Promotion (on-demand)
-Gerenciamento de **preços e promoções** dinâmico, configurado sob demanda por meio da plataforma CXaaS.
+Dynamic **pricing and promotions management**, configured on demand through the CXaaS platform.
 
 ### 🔎 Search (on-demand)
-Sistema de busca integrado com **filtros avançados, termos compostos e relevância contextual**, fornecido também pela CXaaS.
+Integrated search system featuring **advanced filters, compound terms, and contextual relevance**, also provided by CXaaS.
 
-### 📦 Estoque (synced)
-Sistema de controle de **estoque sincronizado** com iHub a cada hora e **revalidado no momento da venda** para garantir consistência.
+### 📦 Stock (synced)
+**Stock management system** synced with iHub every hour and **revalidated at the time of sale** to ensure real-time inventory accuracy.
 
 ---
 
-## 🔌 Integrações
+## 🔌 Integrations
 
 ### 🔁 iHUB
-Responsável pela **integração com ERPs, sistemas de BI e legados**, além da sincronização de dados operacionais com sistemas externos.
+Handles **integration with ERPs, BI platforms, and legacy systems**, including operational data sync with external systems and analytics tools.
 
 ---
 
-## ☁️ Serviços na Huawei Cloud
+## ☁️ Huawei Cloud Services
 
-### 🧰 Hospedagem (Kubernetes)
-Infraestrutura **conteinerizada com Kubernetes**, garantindo **escalabilidade, resiliência e segurança** dos serviços.
+### 🧰 Hosting (Kubernetes)
+Infrastructure fully **containerized and orchestrated with Kubernetes**, providing **scalability, resilience, and security** across services.
 
 ### 🗃️ Object Storage
-Armazenamento de **documentos, imagens e dados não estruturados**, utilizado em diversas etapas da operação (ex: notas fiscais, relatórios, produtos).
+Cloud storage for **documents, images, and unstructured data**, used across the operation (e.g., invoices, reports, product assets).
 
 ### ⚡ Redis
-Usado para:
-- **Cache de API**
-- **Cache de banco de dados**
-- **Gerenciamento de filas assíncronas**
+Used for:
+- **API caching**
+- **Database caching**
+- **Asynchronous queue management**
 
 ---
 
-## 🗄️ Bancos de Dados (MySQL)
+## 🗄️ Databases (MySQL)
 
 ### 🔐 DB Controller
-Banco de dados central para:
-- **Gestão de usuários e contratos**
-- **Controle de acesso**
-- **Orquestração de conexões multi-tenant**
+Central database for:
+- **User and contract management**
+- **Access control**
+- **Orchestration of multi-tenant connections**
 
 ### 🧾 DB Occtotax
-Banco especializado para a aplicação fiscal, incluindo:
-- Geração de **notas e cupons fiscais**
-- Regras tributárias específicas por estado e cliente
+Dedicated database for the fiscal application, including:
+- Generation of **invoices and fiscal coupons**
+- Specific tax rules per state and client
 
-### 🧳 Bancos de dados por cliente
-Ambiente multi-tenant com **bancos dedicados por cliente**, oferecendo **isolamento, segurança e personalização**.
+### 🧳 Client Databases
+Multi-tenant environment with **isolated databases per client**, ensuring **security, data separation, and customization**.
 
 ---
 
-📌 *Este portfólio reflete minha atuação prática como desenvolvedor sênior, com foco em soluções escaláveis, orientadas a domínio, e integradas com diversas plataformas, seguindo boas práticas de arquitetura e engenharia de software.*
+📌 *This portfolio highlights my real-world experience as a senior developer, focused on delivering **scalable**, **domain-oriented**, and **platform-integrated** solutions, built with solid architecture and engineering principles.*
